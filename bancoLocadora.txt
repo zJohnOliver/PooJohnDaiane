@@ -2,8 +2,8 @@ create database clientes;
 
 create table cliente(
 
-varchar nome(100)primary key not null,
+nome varchar(100)primary key not null,
 
-varchar telefone(12)not null
+telefone varchar(12)not null
 
 )
