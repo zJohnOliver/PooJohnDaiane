@@ -1,0 +1,9 @@
+create database cliente;
+
+create table cliente(
+
+varchar nome(100)primary key not null,
+
+varchar telefone(12)not null
+
+)

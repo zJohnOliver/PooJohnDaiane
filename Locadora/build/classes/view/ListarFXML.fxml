@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="474.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListarFXMLController">
+   <children>
+      <TableView fx:id="Tabela" layoutX="61.0" layoutY="76.0" prefHeight="322.0" prefWidth="566.0">
+        <columns>
+          <TableColumn fx:id="Cclientes" prefWidth="370.0" text="Clientes" />
+          <TableColumn fx:id="Ctelefone" minWidth="0.0" prefWidth="198.0" text="Telefone" />
+        </columns>
+      </TableView>
+      <Button fx:id="Bv" layoutX="222.0" layoutY="407.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="55.0" prefWidth="132.0" text="Voltar" />
+      <Label layoutX="278.0" layoutY="7.0" prefHeight="61.0" prefWidth="204.0" text="Clientes">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="370.0" layoutY="405.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="Editar" />
+      <Button layoutX="370.0" layoutY="435.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="Excluir" />
+   </children>
+</AnchorPane>

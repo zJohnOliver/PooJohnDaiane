@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.AtualizarFXMLController">
+   <children>
+      <Label layoutX="205.0" layoutY="28.0" text="Atualizar">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Nome" layoutX="211.0" layoutY="131.0" prefHeight="31.0" prefWidth="184.0" />
+      <TextField fx:id="Ntell" layoutX="211.0" layoutY="244.0" prefHeight="31.0" prefWidth="184.0" />
+      <TextField fx:id="Nnome" layoutX="211.0" layoutY="200.0" prefHeight="31.0" prefWidth="184.0" />
+      <Button fx:id="atualizar" layoutX="189.0" layoutY="290.0" mnemonicParsing="false" onAction="#Batualizar" prefHeight="66.0" prefWidth="108.0" text="Atualizar" />
+      <Button layoutX="309.0" layoutY="290.0" mnemonicParsing="false" onAction="#voltar" prefHeight="66.0" prefWidth="108.0" text="Voltar" />
+      <Label layoutX="231.0" layoutY="101.0" text="Quem Deseja Alterar?">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="207.0" text="Novo Nome:" />
+      <Label layoutX="117.0" layoutY="251.0" text="Novo Telefone:" />
+   </children>
+</AnchorPane>
