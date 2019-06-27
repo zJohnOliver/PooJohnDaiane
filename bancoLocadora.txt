@@ -1,4 +1,4 @@
-create database cliente;
+create database clientes;
 
 create table cliente(
 
